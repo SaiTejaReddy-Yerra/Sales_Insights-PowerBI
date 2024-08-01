@@ -61,14 +61,12 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
   WHERE date.year=2020 and transactions.market_code="Mark001";                                                          
 
 ## Created Data Model View
-![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
+![Model View](https://github.com/user-attachments/assets/2f76c989-d6c2-4e66-bc53-41af1b8f4090)
 
 ## Data Transformation in Power Query
 - Creating new Cloumn in transaction table                                                                       
     - Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else [sales_amount])
 
-## Dashboard Live here
-https://app.powerbi.com/view?r=eyJrIjoiOGUwNDY1MDMtZjY4Zi00NzBlLTkzMTMtZWIwZmM5OWZjOTQ2IiwidCI6IjdlNTIyZTlmLTE0MTAtNDI2My1iOTM2LTkxNTJhNTkyNTY3MSJ9
 
 ## Created Dashboard
 The created Dashboard basically contains 4 Views - Revenue View, Profit View, Customers View, and Performance View.
