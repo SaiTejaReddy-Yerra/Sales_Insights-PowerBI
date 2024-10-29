@@ -13,6 +13,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 
 ## SQL Database dump file
 - db_dump_version_2.sql
+  
 #### Tables in the Database
       - customers
       - dates
