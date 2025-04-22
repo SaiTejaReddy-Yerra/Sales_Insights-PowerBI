@@ -33,8 +33,10 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Publishing the fully working dashboard to the Power BI service, providing access to pertinent teams to acquire critical business insights.
 
 ## Data Analysis using SQL
-1. **Show all customer records**                            
-- SELECT * FROM customers;                    
+1. **Show all customer records** 
+\\\sql 
+ SELECT * FROM customers;                    
+\\\                           
 2. **Show total number of customers**                                        
 - SELECT count(*) FROM customers;
 3. **Show transactions for Chennai market (market code for chennai is Mark001**
